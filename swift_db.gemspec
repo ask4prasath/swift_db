@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Stores data in a B+tree structure}
   s.email = %q{ask4prasath@gmail.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/a.rb", "lib/common/comparison.rb", "lib/db.rb", "lib/root/binary.rb", "lib/root/internal_node.rb", "lib/root/leaf.rb", "lib/root/table.rb", "lib/root/tree.rb", "lib/swift_db.rb"]
-  s.files = ["Manifest", "README.rdoc", "Rakefile", "exportToHTML/tree.rb.html", "lib/a.rb", "lib/common/comparison.rb", "lib/db.rb", "lib/root/binary.rb", "lib/root/internal_node.rb", "lib/root/leaf.rb", "lib/root/table.rb", "lib/root/tree.rb", "lib/swift_db.rb", "swift_db.gemspec"]
+  s.files = ["Manifest", "README.rdoc", "Rakefile", "lib/a.rb", "lib/common/comparison.rb", "lib/db.rb", "lib/root/binary.rb", "lib/root/internal_node.rb", "lib/root/leaf.rb", "lib/root/table.rb", "lib/root/tree.rb", "lib/swift_db.rb", "swift_db.gemspec"]
   s.homepage = %q{https://github.com/ask4prasath/swift_db}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Swift_db", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
