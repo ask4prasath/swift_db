@@ -1,0 +1,29 @@
+Swift DB
+
+Swift DB is a lightweight and clean In memory Distributed Database written in pure ruby. It can also be used as a new distributed datastructure(B+ Tree) in ruby.
+
+Installation:
+  via Ruby Gem: gem install swift_db
+  via Github: https://github.com/ask4prasath/swift_db
+
+Features:
+  * Stores Data in a Inmemory (B+ tree) Datastructure
+  * Executes Various kinds of queries(Provides variety of range search)
+  * Supports RegEx Search
+  * Returns Result using Table.rb Object model.
+
+Examples:
+  require 'rubygems'
+  require 'swift_db'
+  include Db::Core
+
+  person = Table.new(3) #Where 3 is the Node Structure The minimum you give the better the performance but takes some memoryh
+  person.insert(1, "Michael Ken")
+  person.insert(2,  "John Key")
+  person.insert(3, "stacy")
+
+  For Searching:
+   person.search(1) => ["Michael Ken"]  #Fetches Person With primary key 1
+   person.search(3,  DB::Core::Common::Comparison::LT) => ["Michael Ken", "John Key"] #Fetches Person whose primary key lesser than 3
+   person.search(2,  DB::Core::Common::Comparison::GT) => ["stacy"] #Fetches Person whose primary key greater than 2
+   person.search(3,  DB::Core::Common::Comparison::NEQ) => ["Michael Ken", "John Key"] #Fetches Person whose primary key not equal to 3
