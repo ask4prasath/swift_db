@@ -29,7 +29,6 @@ module Db
         end
 
         def insert_node_pointer(key_and_node)
-          puts "-------------#{key_and_node}"
           @keys_and_node_pointers << key_and_node
           sort_keys
           split if @keys_and_node_pointers.size > @max_capacity
@@ -70,11 +69,11 @@ module Db
       private
 
       def sort_keys
-        @keys_and_node_pointers.sort! {|a,b| a<=>b}
-        end
+        @keys_and_node_pointers.sort! 
+      end
 
         def split
-          puts "============#{@keys_and_node_pointers}"
+          puts "----New Internal Node Created----"
           split_index=((@keys_and_node_pointers.length / @max_capacity.to_f).ceil)-1
           splited_values=@keys_and_node_pointers.values_at(0..split_index)
           @keys_and_node_pointers.slice!(0..split_index)
