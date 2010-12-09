@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6918fad-cb80-4b7b-a742-f93b4133de18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/binary_tree.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1.gem" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1/Manifest" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1/README.rdoc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1/Rakefile" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1/exportToHTML/tree.rb.html" afterPath="" />
@@ -19,11 +21,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1/lib/swift_db.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1/swift_db.gemspec" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/swift_db-0.1.1.gem" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pkg/swift_db-0.1.1/Manifest" afterPath="$PROJECT_DIR$/Manifest" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swift_db-0.1.2.gem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/swift_db-0.1.3.gem" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/root/binary.rb" afterPath="$PROJECT_DIR$/lib/root/binary.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/root/internal_node.rb" afterPath="$PROJECT_DIR$/lib/root/internal_node.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swift_db.gemspec" afterPath="$PROJECT_DIR$/swift_db.gemspec" />
     </list>
     <ignored path="Database.iws" />
@@ -75,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="internal_node.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="internal_node.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/root/internal_node.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="24" selection-start="1849" selection-end="1849" vertical-scroll-proportion="1.0954199">
+            <state line="71" column="9" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +97,7 @@
       <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+            <state line="4" column="29" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,25 +115,25 @@
       <file leaf-file-name="table.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/root/table.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+            <state line="31" column="3" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0">
+            <state line="2" column="4" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comparison.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/common/comparison.rb">
+      <file leaf-file-name="binary_tree.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/binary_tree.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+            <state line="9" column="5" selection-start="207" selection-end="207" vertical-scroll-proportion="0.2576336">
               <folding />
             </state>
           </provider>
@@ -186,6 +187,8 @@
         <option value="$PROJECT_DIR$/lib/root/binary.rb" />
         <option value="$PROJECT_DIR$/lib/root/internal_node.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/binary_tree.rb" />
       </list>
     </option>
   </component>
@@ -245,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="spec" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -260,10 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="root" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -341,14 +340,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="720" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="24" width="1366" height="720" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24292101" sideWeight="0.6713533" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24292101" sideWeight="0.6713533" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -408,13 +407,6 @@
         <state line="8" column="9" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/root/table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/root/tree.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="9" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
@@ -448,14 +440,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0">
+        <state line="4" column="29" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/root/internal_node.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="24" selection-start="1849" selection-end="1849" vertical-scroll-proportion="1.0954199">
+        <state line="71" column="9" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/root/table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="3" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/binary_tree.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="5" selection-start="207" selection-end="207" vertical-scroll-proportion="0.2576336">
           <folding />
         </state>
       </provider>
