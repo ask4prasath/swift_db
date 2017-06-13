@@ -27,3 +27,8 @@ Examples:
    person.search(3,  DB::Core::Common::Comparison::LT) => ["Michael Ken", "John Key"] #Fetches Person whose primary key lesser than 3
    person.search(2,  DB::Core::Common::Comparison::GT) => ["stacy"] #Fetches Person whose primary key greater than 2
    person.search(3,  DB::Core::Common::Comparison::NEQ) => ["Michael Ken", "John Key"] #Fetches Person whose primary key not equal to 3
+
+
+## Sponsor
+
+[AppWorkLabs](http://www.appworklabs.com) - A premium uber clone application platform
